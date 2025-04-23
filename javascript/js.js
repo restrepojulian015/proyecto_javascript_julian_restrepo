@@ -1,9 +1,9 @@
 //Código del aplicativo
 
 //linea de código que da la bienvenida
-//   let saludo = "bienvenido a acme school";
-//           saludar = (saludo) => speechSynthesis.speak( new SpeechSynthesisUtterance(saludo));
-//           saludar(saludo);
+   let saludo = "bienvenido a acme school";
+           saludar = (saludo) => speechSynthesis.speak( new SpeechSynthesisUtterance(saludo));
+           saludar(saludo);
 
 
 //Inicio del Programa
