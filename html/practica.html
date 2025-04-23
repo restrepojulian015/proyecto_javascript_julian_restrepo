@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica</title>
+    <link rel="stylesheet" href="/css/css.css">
+</head>
+<body>
+    <header>
+        <h1 id="acme-school">acme school</h1>
+    </header>
+    <main>
+        <div id="image1-container">
+            <img src="/logos/ACME SCHOOL beige.png" alt="acme-school" id="img1">
+        </div>
+        <aside id="headerInicio">
+            <form id="registerUser Form">
+                <label for="Número de Identificación" class="labelsRegisterUser">NÚMERO DE IDENTIFICACIÓN</label>
+                <input type="text" placeholder="Número de Identificación" required>
+                <label for="Nombre" class="labelsRegisterUser">NOMBRE</label>
+                <input type="text" placeholder="Nombre" required>
+                <label for="elepcion" class="labelsRegisterUser">TIPO DE USUARIO</label>
+                <select>
+                    <option value="administrativo">Administrativo</option>
+                    <option value="profesor">Profesor</option>
+                </select>
+                <label for="email" class="labelsRegisterUser">EMAIL</label>
+                <input type="email" placeholder="Email" required>
+                <label for="password" class="labelsRegisterUser">CONTRASEÑA</label>
+                <input type="password" placeholder="Contraseña" required>
+                <div>
+                    <button type="submit">Registrar Usuario</button>
+                    <button type="exit">Salir</button> 
+                </div>
+            </form>
+        </aside>
+    </main>
+</body>
+</html>

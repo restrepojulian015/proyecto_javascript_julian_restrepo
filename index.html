@@ -4,29 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>inicio</title>
+    <script src="/javascript/js.js" defer></script>
+    <link rel="stylesheet" href="/css/css.css">
 </head>
 <body>
-    <form id="registerUser Form">
-        <input type="text" id="identificationNumber" placeholder="Número de Identificación" required>
-        <input type="text" id="name" placeholder="Nombre" required>
-        <select id="role" required>
-            <option value="administrativo">Administrativo</option>
-            <option value="profesor">Profesor</option>
-        </select>
-        <input type="email" id="email" placeholder="Email" required>
-        <input type="password" id="password" placeholder="Contraseña" required>
-        <button type="submit" id="id">Registrar Usuario</button>
-    </form>
-
-    <script>
-        
-        const boton = document.querySelector("#id");
-        boton.addEventListener("click", (event)=>{
-            event.preventDefault();
-            const numero = document.querySelector("#identificationNumber").value;
-            console.log("numero de identificación",numero);
-        })
-    </script>
+    <vista-1></vista-1>
 </body>
 </html>
