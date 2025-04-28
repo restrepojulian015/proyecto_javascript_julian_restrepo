@@ -38,7 +38,7 @@ class myBody extends HTMLElement {
             align-items: center;
             margin: 10px;
         }
-        
+            
         button {
             background-color: #0060b8;
             color: beige;
